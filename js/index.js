@@ -4,9 +4,13 @@
 
 // console.log(a);
 
-// let a = 10;
-// a = 20;
-// console.log(a); 
+let b = 10;
+b = 20;
+console.log(a); 
 
-// const a ="yumud";
-// console.log(a);
+const char = 'abcd'
+const c = "yumud"; 
+c = 'aman' // error
+console.log(c);
+console.log ("hello word" )
+console.log ("how are you" )
