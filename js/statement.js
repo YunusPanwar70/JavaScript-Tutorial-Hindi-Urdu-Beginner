@@ -1,6 +1,6 @@
-let a = 100;
-let b = 100;
+let a = 200;
+let b = 300;
 
-if(a = b){
+if(a > b){
     console.log("a is big");
 }

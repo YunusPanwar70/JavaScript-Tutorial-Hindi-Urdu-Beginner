@@ -23,5 +23,8 @@ console.warn("This Is Just warning");
 // Test time
 
 console.time("Test");
+if(a === 50){
+    console.log('true')
+}
 console.timeEnd("Test")
  
