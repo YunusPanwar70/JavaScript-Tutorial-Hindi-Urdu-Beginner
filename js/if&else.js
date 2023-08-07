@@ -13,7 +13,7 @@
 //     console.log("Please Enter Valid Percent");
 // }
 
-let per = 50;
+let per = prompt("Enter your Percent ");
 
 if (per >= 80 && per <= 100) {
     console.log("You are in Merit");
