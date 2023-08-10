@@ -15,7 +15,7 @@ let d = 50;
 if (c > d) {
     alert("Value of C:" + c)
 } else {
-    alert("Value of d:" +d)
+    alert("Value of d:" + d)
 }
 
 // Arethmetic opreator
@@ -26,4 +26,12 @@ if (e+f) {
     alert(e+f)
 } else {
     alert("Value of b")
+}
+
+let g = 10;
+let h = 20;
+if (g+h) {
+    confirm(g+h)
+} else {
+    
 }

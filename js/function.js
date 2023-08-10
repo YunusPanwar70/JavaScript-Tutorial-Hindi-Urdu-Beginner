@@ -32,7 +32,7 @@ hey("yaasu ", "panwar ");
 
 // Function with return value
 
-function fullname(fname = "yahoo", lname = "baba"){
+function fullname(fname = "yahoo", lname = "baba") {
     let m = fname + " " + lname;
 
     return m;
@@ -45,16 +45,35 @@ console.log(fn);
 // total
 
 function sum(math, eng, sci) {
-    let s = math + eng +sci;
-    
-    return s; 
+    let s = math + eng + sci;
+
+    return s;
 }
 
-function percentage(tt){
-    let per = tt/300 * 100;
+function percentage(tt) {
+    let per = tt / 300 * 100;
     // return per;
     console.log(per);
 }
-let total = sum(55,65,75);
+let total = sum(55, 65, 75);
 
 percentage(total);
+
+// next 
+
+function number(num, num2) {
+    const cum = 10;
+
+    return num * cum + num2;
+
+}
+
+console.log(number(10, 20));
+
+// Globel And Local
+
+function Name(){
+    let y = "aman";
+    console.log(y);
+}
+Name();
