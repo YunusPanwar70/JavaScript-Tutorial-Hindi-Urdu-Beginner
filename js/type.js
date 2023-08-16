@@ -9,11 +9,12 @@ let c = true;
 console.log(typeof c);
 
 let d = ["HTML", "CSS", "JS"];
-
+const num = 10;
+console.log(typeof num);
 console.log(typeof d);
 
-let e = {one, two, three};
-console.log(typeof e)
+// let e = {one, two, three};
+// console.log(typeof e)
 
 let f = null;
 console.log(typeof f);

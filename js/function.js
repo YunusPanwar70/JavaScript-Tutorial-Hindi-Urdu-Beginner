@@ -47,7 +47,8 @@ console.log(fn);
 function sum(math, eng, sci) {
     let s = math + eng + sci;
 
-    return s;
+    // return s;
+    console.log(s)
 }
 
 function percentage(tt) {
@@ -55,9 +56,8 @@ function percentage(tt) {
     // return per;
     console.log(per);
 }
-let total = sum(55, 65, 75);
+console.log(sum(2, 2, 10))
 
-percentage(total);
 
 // next 
 
