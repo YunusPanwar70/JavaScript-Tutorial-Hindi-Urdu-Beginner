@@ -1,22 +1,39 @@
-let ary = [1, 20, 3, 4];
+// One
 
-let b = ary.map(test);
+let a = [1, 2, 3, 4, 5];
+
+console.log(a);
+
+let b = a.map((num) => num * 10);
 
 console.log(b);
 
-function test(x) {
-  return x * 10;
-}
+// Two
 
-let a = [
-  { fmame: "yahoo", lname: "baba" },
-  { fmame: "mohin", lname: "khan" },
-  { fmame: "amaan", lname: "tak" },
-];
+let c = [10, 20, 30, 40, 50];
 
-let c = a.map(work);
 console.log(c);
 
-function work(y) {
-  return y.fmame + " " + y.lname;
+let d = c.map(check);
+
+function check(arr) {
+  return arr * 10;
+}
+
+// Three
+
+let e = [
+  { Fname: "Yunus", Lname: "Panwar" },
+  { Fname: "Amaan", Lname: "Tak" },
+  { Fname: "Mohin", Lname: "Khan" },
+];
+
+console.log(e);
+
+let f = e.map(check1);
+
+console.log(f);
+
+function check1(arr1) {
+  return arr1.Fname + " " + arr1.Lname;
 }

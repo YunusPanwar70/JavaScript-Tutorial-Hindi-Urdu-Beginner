@@ -1,13 +1,19 @@
-let str = "JavaScript is a Great Language";
+// indexOf
 
-let a = str.indexOf("is");
+const a = "JavaScript is a great language";
 
 console.log(a);
 
-// lastindexoff
-
-let num = "JavaScript is a Great Language";
-
-let b = num.lastIndexOf("Great");
+const b = a.indexOf("is");
 
 console.log(b);
+
+// lastindexoff
+
+const c = "JavaScript is a great language";
+
+console.log(c);
+
+const d = c.lastIndexOf("great");
+
+console.log(d);

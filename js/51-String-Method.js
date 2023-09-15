@@ -1,5 +1,7 @@
-let str = "JavaScript";
+const str = "Javascript is a great language";
 
-let a = str.length;
+console.log(str);
+
+const a = str.length;
 
 console.log(a);

@@ -1,11 +1,11 @@
 let a = new Object();
 
-a.fname = "Yunus";
-a.lname = "Panwar";
-a.age = 18;
+a.Fname = "Yunus";
+a.Lname = "Panwar";
+a.Age = 18;
 
 console.log(a);
-
-console.log(a.fname);
-
-console.log(a["lname"]);
+console.log(a.Fname);
+console.log(a.Lname);
+console.log(a.Age);
+console.log(a["Fname"]);

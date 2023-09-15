@@ -1,9 +1,19 @@
-let str = "JavaScript is a Great Language";
+// One
 
-let str2 = " and Best";
-
-let str3 = " Language";
-
-let a = str.concat(str2, str3);
+const a = "JavaScript is a ";
 
 console.log(a);
+
+const b = "great";
+
+const c = a.concat(b);
+
+console.log(c);
+
+// Two
+
+const d = "language";
+
+const e = a.concat(b, d);
+
+console.log(e);

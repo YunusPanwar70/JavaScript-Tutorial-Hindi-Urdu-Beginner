@@ -1,13 +1,19 @@
-let str = "JavaScript is a Great Language";
+// substr
 
-let a = str.substr(2);
+const a = "JavaScript is a great language";
 
 console.log(a);
 
-// SUbString
-
-let str2 = "JavaScript is a Great Language";
-
-let b = str2.substring(3, 5);
+const b = a.substr(2, 5);
 
 console.log(b);
+
+// substring
+
+const c = "JavaScript is a great language";
+
+console.log(c);
+
+const d = c.substring(2, 5);
+
+console.log(d);

@@ -1,29 +1,25 @@
-let a = {
-  fname: "Yunus",
-  lname: "Panwar",
-  age: 18,
-  country: "India",
-  favMovies: ["Dhoom", "Sholay", "Dangal"],
-  living: {
-    city: "Jodhpur",
-    state: "Rajsthan",
+const a = {
+  Fname: "Yunus",
+  Lname: "Panwar",
+  Age: 18,
+  FavMovie: ["Jawan", "Leo", "K.G.F"],
+
+  Living: {
+    Contry: "India",
+    State: "Rajasthan",
+    City: "Jodhpur",
   },
-  salary: function () {
+
+  Salary: function (arr) {
     return 25000;
   },
-  fullname: function () {
-    return this.fname + " " + this.lname;
+
+  Check: function (arr1) {
+    return this.Fname + " " + this.Lname;
   },
 };
 
 console.log(a);
-
-console.log(a.age);
-
-console.log(a.favMovies[2]);
-
-console.log(a.salary);
-
-document.write(a.fullname());
-
-console.log(a.living.city);
+console.log(a.Check());
+console.log(a.Age);
+console.log(a.Salary());

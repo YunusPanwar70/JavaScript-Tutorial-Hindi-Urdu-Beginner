@@ -1,5 +1,7 @@
-let str = "JavaScript is a Great Language";
+const a = "JavaScript is a great language";
 
-let a = str.split(" ");
+console.log(a)
 
-console.log(a);
+const b = a.split(" ")
+
+console.log(b)

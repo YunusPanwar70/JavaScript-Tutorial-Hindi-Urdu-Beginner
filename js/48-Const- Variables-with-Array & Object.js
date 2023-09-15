@@ -3,16 +3,19 @@ const a = [10, 20, 30];
 console.log(a);
 
 a[0] = 15;
+a[1] = 25;
+a[2] = 35;
 
 console.log(a);
 
 const b = {
-  name: "yunus",
-  age: 18,
+  Name: "Yunus",
+  Age: 18,
 };
 
 console.log(b);
 
-b.name = "Yaasu";
+b.Name = "Yaasu";
+b.Age = 19;
 
 console.log(b);

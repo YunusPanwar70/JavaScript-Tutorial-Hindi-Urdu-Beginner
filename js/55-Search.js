@@ -1,5 +1,7 @@
-let str = "JavaScript is a Great Language";
-
-let a = str.search("is");
+const a = "JavaScirpt is a great language";
 
 console.log(a);
+
+const b = a.search("great");
+
+console.log(b);

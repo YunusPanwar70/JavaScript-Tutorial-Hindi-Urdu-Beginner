@@ -1,5 +1,7 @@
-let str = "  JavaScript   ";
+const a = "    JavaScript   ";
 
-let a = str.trim();
+console.log(a);
 
-alert(a);
+const b = a.trim();
+
+console.log(b);

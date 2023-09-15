@@ -8,5 +8,4 @@ console.log("Hello");
 
 // document.write("Hi Friend's")
 
-console.log("Hi Friend's");  //This is single comment
-
+console.log("Hi Friend's"); //This is single comment

@@ -1,11 +1,19 @@
-let str = "JavaScript is a Greater Language";
+// toLowerCase
 
-let a = str.toLowerCase();
+const a = "JavaScript is a great language";
 
 console.log(a);
 
-let b = "JavaScript is a Greater Language";
+const b = a.toLowerCase();
 
-let c = b.toUpperCase();
+console.log(b);
+
+// toUpperCase
+
+const c = "Javascript is a great language";
 
 console.log(c);
+
+const d = c.toUpperCase();
+
+console.log(d);

@@ -12,7 +12,7 @@ let c = 50;
 
 let d = 36;
 
-console.log(c - d);
+console.log(c - d)
 
 // Multiplication
 

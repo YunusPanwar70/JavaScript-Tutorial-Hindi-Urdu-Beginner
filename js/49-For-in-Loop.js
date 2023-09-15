@@ -1,18 +1,11 @@
-let a = {
-  fname: "yunus",
-  lname: "panwar",
-  age: 18,
-  city: "jodhpur",
+const a = {
+  Fname: "Yunus",
+  Lname: "Panwar",
+  Age: 18,
 };
 
-for (let key in a) {
-  console.log(key);
-}
+console.log(a);
 
-const arr  = [1,2,3,4];
-for(let key of arr){
-console.log(key);
+for (const key in a) {
+  console.log(key + " " + a[key])
 }
-// for(let i = 0; i< arr.length; i++){
-  
-// }

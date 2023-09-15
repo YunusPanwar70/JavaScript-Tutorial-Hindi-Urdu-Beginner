@@ -1,13 +1,12 @@
-let student = [
-  { name: "Yunus", age: 18 },
-  { name: "Mohin", age: 21 },
-  { name: "Lucky", age: 19 },
-  { name: "Masum", age: 19 },
-  { name: "Amaan", age: 17 },
+let Student = [
+  { Name: "Amaan Tak", Age: 17 },
+  { Name: "Yunus Panwar", Age: 18 },
+  { Name: "Masum Ali", Age: 19 },
+  { Name: "Lukman Tak", Age: 19 },
+  { Name: "Mohin Khan", Age: 21 },
 ];
 
-console.log(student);
-
-for (let a = 0; a < student.length; a++) {
-  console.log(student[a].name + " " + student[a].age);
+console.log(Student);
+for (let a = 0; a < Student.length; a++) {
+  console.log(Student[a].Name + "   " + Student[a].Age)
 }

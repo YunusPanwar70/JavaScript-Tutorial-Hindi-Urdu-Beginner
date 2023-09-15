@@ -1,9 +1,19 @@
-let str = "JavaScript is a Great Language";
+// One
 
-let a = str.includes("is");
+const a = "JavaScript is a great language";
 
 console.log(a);
 
-let b = str.includes("hello");
+const b = a.includes("is");
 
 console.log(b);
+
+// Two
+
+const c = "JavaScript is a great language";
+
+console.log(c);
+
+const d = c.includes("hey");
+
+console.log(d);

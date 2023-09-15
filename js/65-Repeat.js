@@ -1,5 +1,7 @@
-let str = "JavaScript is a Great Language ";
-
-let a = str.repeat(2);
+const a = "JavaScript is a great language ";
 
 console.log(a);
+
+const b = a.repeat(3);
+
+console.log(b);

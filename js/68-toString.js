@@ -1,5 +1,7 @@
-let str = 50;
-
-let a = str.toString();
+const a = 10;
 
 console.log(a);
+
+const b = a.toString();
+
+console.log(b);

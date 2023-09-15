@@ -1,5 +1,7 @@
-let str = "JavaScript is a Great Language";
-
-let a = str.charCodeAt(2);
+const a = "JavaScript is a great language";
 
 console.log(a);
+
+const b = a.charCodeAt(4);
+
+console.log(b);

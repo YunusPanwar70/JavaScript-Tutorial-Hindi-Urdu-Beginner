@@ -1,5 +1,3 @@
-// let str = "JavaScript is a Great Language";
-
-let a = String.fromCharCode(99);
+const a = String.fromCharCode(97);
 
 console.log(a);
