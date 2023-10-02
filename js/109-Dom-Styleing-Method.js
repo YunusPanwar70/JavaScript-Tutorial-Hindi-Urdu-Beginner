@@ -1,25 +1,25 @@
 // // Style
 
-// document.querySelector("#header").style.backgroundColor = "blue";
+let a = document.querySelector("#header").style.border;
 
-// document.querySelector("#header").style.color = "yellow";
+console.log(a);
 
-// let a = document.querySelector("#header").style.border;
+let b = document.querySelector("#header").style.backgroundColor = "tan";
 
-// console.log(a);
+let c = document.querySelector("#header").style.color = "blue";
 
 // // ClassName
 
-// let b = document.querySelector("#header").className = "yunus";
+let d = document.querySelector("#header").className = "abc xyz";
 
-// b = document.querySelector("#header").className = "yunus";
+let e = document.querySelector("#header").className;
 
-// console.log(b);
+console.log(e);
 
 // ClassList
 
-let c = document.querySelector("#header").classList.remove("yaasu");
+let f = document.querySelector("#header").classList.remove("abc");
 
-c = document.querySelector("#header").classList;
+let g = document.querySelector("#header").classList;
 
-console.log(c);
+console.log(g);

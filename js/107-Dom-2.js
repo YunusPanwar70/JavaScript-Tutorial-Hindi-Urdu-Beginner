@@ -1,55 +1,74 @@
 // // Get
 
-// let a = document.getElementById("flex").innerHTML;
+// innerText
 
-// console.log(a);
+let a = document.getElementById("header").innerText;
 
-// let b = document.getElementsByClassName("container");
+console.log(a);
 
-// console.log(b);
+let b = document.getElementById("content").innerText;
 
-// let c = document.getElementById("flex").getAttribute("onClick");
+console.log(b);
 
-// console.log(c);
+// innerhtml
 
-// let d = document.getElementById("flex").getAttributeNode("style");
+let c = document.getElementById("header").innerHTML;
 
-// console.log(d);
+console.log(c);
 
-// let e = document.getElementById("flex").attributes[3].value;
+// getAttribute
 
-// console.log(e);
+let d = document.getElementById("header").getAttribute("class");
 
-// // Set
+console.log(d);
 
-// document.getElementById("flex").innerText = "salam";
+let e = document.getElementById("header").getAttribute("style")
+
+console.log(e);
+
+let f = document.getElementById("header").getAttribute("onClick")
+
+console.log(f);
+
+// getAttributeNode
+
+let g = document.getElementById("header").getAttributeNode("onClick")
+
+console.log(g);
+
+let h = document.getElementById("header").getAttributeNode("style").value;
+
+console.log(h);
+
+// Attribute
+
+let i = document.getElementById("header").attributes;
+
+console.log(i);
+
+let j = document.getElementById("header").attributes[2];
+
+console.log(j);
+
+//  Set
+
+let k = document.getElementById("header").innerText = " hello";
+
+console.log(k);
+
+let l = document.getElementById("header").innerHTML = "<h1>Wow</h1>";
+
+console.log(l);
 
 
+let m = document.getElementById("header").setAttribute("class", "yaasu");
 
-// let g = document.getElementById("flex").innerHTML;
-// document.getElementById("flex").innerHTML = "<h1>yunus panwar</h1>"
+m = document.getElementById("header").getAttribute("class");
 
+console.log(m);
 
-// let h = document.getElementById("flex").setAttribute("style", "border: 10px dotted green");
+let n = document.getElementById("header").setAttribute("style", "border: 10px dotted yellow ");
 
-// // h = document.getElementById("flex").getAttribute("class");
-// // console.log(h);
+// removeAttribute
 
-// // let i = document.getElementById("flex").getAttribute[1].value = "xyz";
-
-// // console.log(i);
-
-// let j = document.getElementById("flex").removeAttribute("style");
-
-// console.log(j);
-
-
-
-
-// let yunus = document.getElementById("flex").setAttribute("style", "background-color: green");
-
-
-
-// let salam = document.getElementById("flex").setAttribute("class", "fdc")
-
-let yasir = document.getElementById("salam").setAttribute("style","background-color: green")
+let o = document.getElementById("header").removeAttribute("style")
