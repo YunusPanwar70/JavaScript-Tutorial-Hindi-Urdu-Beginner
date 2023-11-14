@@ -23,6 +23,7 @@ document.querySelector("body").addEventListener("keydown", function(e) {
             console.log("Other Key Press");
             break;
     }
+    console.clear();
     console.log("Left: " + left);
     console.log("Up: " + up);
 
